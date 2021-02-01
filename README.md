@@ -7,8 +7,8 @@ This aplication allows you to generate  multiplication table files by the base a
 ## Instructions 
 there are two command: 
 
-  - listar (show the multiplication table) 
-  - crear (create the multiplication table file)
+  - list (show the multiplication table) 
+  - create (create the multiplication table file)
 
 there are two parameters required by the two commands:
 
@@ -18,13 +18,13 @@ there are two parameters required by the two commands:
 ## Usage to create multiplication table file:
 
 ```bash
-$ node index.js crear -b 10  -l 10
+$ node index.js create -b 10  -l 10
 ```
 
 ## Usage to list the multiplication table:
 
 ```bash
-$ node index.js listar -b 10  -l 10
+$ node index.js list -b 10  -l 10
 ```
 
 
